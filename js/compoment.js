@@ -6,7 +6,7 @@ compoment.mainPage = `  <div class="container">
         <div class="line line-2"></div>
         <div class="line line-3"></div>
     </div>
-    <a href="#" class="logo">libvocab</a>
+    <a href="#home" class="logo">libvocab</a>
     <div class="navs">
        <div class="navs-list">
         <a href="#home" class="navs-link">Trang chủ</a>
@@ -34,8 +34,8 @@ compoment.mainPage = `  <div class="container">
 </div>
 
 
-<div class="about">
-    <h1 id="about">Giới Thiệu</h1>
+<div class="about" id="about">
+    <h1 >Giới Thiệu</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eaque vero debitis voluptatum, 
         ipsum amet! Nemo deleniti tenetur necessitatibus, voluptatibus maiores ullam, velit, voluptates 
         incidunt deserunt nam quisquam odio possimus.</p> 
