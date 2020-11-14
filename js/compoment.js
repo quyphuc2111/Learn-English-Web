@@ -1,57 +1,150 @@
 const compoment = {}
-compoment.mainPage = `  <div class="container">
+compoment.mainPage = `   <div class="container">
 <nav class="navbar">
     <div class="hamburger-menu">
         <div class="line line-1"></div>
         <div class="line line-2"></div>
         <div class="line line-3"></div>
     </div>
-    <a href="#home" class="logo">libvocab</a>
+    <a class="logo">libvocab</a>
     <div class="navs">
        <div class="navs-list">
         <a href="#home" class="navs-link">Trang chủ</a>
-        <a href="#about" class="navs-link">Giới thiệu</a>
-        <a href="#" class="navs-link">Liên hệ</a>
+        <a href="#aboutt" class="navs-link">Giới thiệu</a>
+        <a href="#contact" class="navs-link">Liên hệ</a>
    
        </div>
             
         
     </div>
 </nav>
-<div class="center-page "  id="home">
-    <div class="content">
-        <p> Học tiếng anh miễn phí và mãi mãi</p>
-        <div class="btn-log-res">
-            <div class="btn btn-register">
-                <a href="">Bắt đầu</a>
-            </div>
-
-            <div class="btn btn-login">
-                <a href="">Tôi đã có tài khoản</a>
+<section>
+    <div class="center-page "  id="home">
+        <div class="content">
+            <p> Học tiếng anh miễn phí và mãi mãi</p>
+            <div class="btn-log-res">
+                <div class="btn btn-register" id ="register-btn">
+                   Bắt đầu
+                </div>
+    
+                <div class="btn btn-login" id = "login-btn">
+                    Tôi đã có tài khoản
+                </div>
             </div>
         </div>
     </div>
+    
+
+    <div class="about" id="aboutt">
+        <h1 >Học từ thông qua hình ảnh <i class="fa fa-image"></i></h1>
+        <p> <i class="fa fa-check-circle"></i>Tiếp thu kiến thức nhanh hơn</p> 
+        <p> <i class="fa fa-check-circle"></i>Việc học từ sẽ không bị khô khan</p> 
+        <p> <i class="fa fa-check-circle"></i>Giúp ghi nhớ từ vựng lâu hơn,tốt hơn</p> 
+    </div>
+
+
+    <div class="about" >
+        <h1 >Học từ thông qua hình ảnh <i class="fa fa-image"></i></h1>
+        <p> <i class="fa fa-check-circle"></i>Tiếp thu kiến thức nhanh hơn</p> 
+        <p> <i class="fa fa-check-circle"></i>Việc học từ sẽ không bị khô khan</p> 
+        <p> <i class="fa fa-check-circle"></i>Giúp ghi nhớ từ vựng lâu hơn,tốt hơn</p> 
+    </div>
+</section>
+<footer>
+    <div class="footer">
+        <div class="info" id="contact">
+            <div class="per">
+                <h2> <a href="https://www.facebook.com/qunduong">Dương Anh Quân</a></h2>
+                <div class="img"></div>
+            </div>
+            <div class="per">
+                <h2><a href="https://www.facebook.com/quyphuc21/">Nguyễn Quý Phúc</a></h2>
+                <div class="img"></div>
+            </div>
+            <div class="per">
+                <h2><a href="https://www.facebook.com/ng.duy.sinh">Nguyễn Duy Sinh</a></h2>
+                <div class="img"></div>
+            </div>
+        </div>
+          <br><br>
+        <div class="contact">
+            Liên hệ: 0326 anh có vợ rồi :D
+        </div>
+          
+    </div>
+
+</footer>
+
+</div>`;
+
+compoment.loginPage = `
+  
+    
+  
+   
+    <div class="login-container">
+    <div class="form-wrapper">
+        <h1>LOGIN</h1>
+        <form id="login-form">
+            <div class="input-wrapper">
+                <input type="email" placeholder="Username" name="email">
+                <div id="email-error" class="err"></div>
+            </div>
+            <div class="input-wrapper">
+                <input type="password" placeholder="Password" name="password">
+                <div id="password-error" class="err"></div>
+            </div>
+            <div class="login-form-action">
+                <button class="btnLogin" type="submit">LOGIN</button>
+            </div>
+            <div class="textLogin">
+                You dont have account ? <span id="redirect-register" class="cursor-pointer"> Create a account</span>
+            </div>
+        </form>
+    </div>
 </div>
+        
+    
+        
+    
+  
+    
+      `;
 
+compoment.registerPage = `
 
-<div class="about" id="about">
-    <h1 >Giới Thiệu</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eaque vero debitis voluptatum, 
-        ipsum amet! Nemo deleniti tenetur necessitatibus, voluptatibus maiores ullam, velit, voluptates 
-        incidunt deserunt nam quisquam odio possimus.</p> 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eaque vero debitis voluptatum, 
-        ipsum amet! Nemo deleniti tenetur necessitatibus, voluptatibus maiores ullam, velit, voluptates 
-        incidunt deserunt nam quisquam odio possimus.</p> 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eaque vero debitis voluptatum, 
-        ipsum amet! Nemo deleniti tenetur necessitatibus, voluptatibus maiores ulla
-        m, velit, voluptates incidunt deserunt nam quisquam odio possimus.</p> 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eaque vero d
-        ebitis voluptatum, ipsum amet! Nemo deleniti tenetur necessitatibus, voluptatibus maiores ullam, 
-        velit, voluptates incidunt deserunt nam quisquam odio possimus.</p> 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eaque vero debitis v
-        oluptatum, ipsum amet! Nemo deleniti tenetur necessitatibus, voluptatibus maiores ullam, velit
-        , voluptates incidunt deserunt nam quisquam odio possimus.</p> 
-
-</div>
-
-</div>`
+    <div class="register-container">
+        <div class="form-wrapper">
+            <h1>REGISTER</h1>
+            <form id="register-form">
+                <div class="input-wrapper">
+                    <input type="username" placeholder="username" name="username">
+                    <div id="username-error" class="err"></div>
+                </div>
+                <div class="input-wrapper">
+                    <input type="email" placeholder="email" name="email">
+                    <div id="email-error" class="err"></div>
+                </div>
+                <div class="input-wrapper">
+                    <input type="password" placeholder="password" name="password">
+                    <div id="password-error" class="err"></div>
+                </div>
+                <div class="input-wrapper">
+                    <input type="password" placeholder="confirm password" name="confirmPassword">
+                    <div id="cf-password-error" class="err"></div>
+                </div>
+                <div class="register-form-action">
+                    <button class="btnregister" type="submit">REGISTER</button>
+                </div>
+                <div class="textregister">
+                    Have an account? <span id="redirect-login" class="cursor-pointer">Login</span>
+                </div>
+            </form>
+        </div>
+    </div>
+`;
+compoment.loginSuccess = `
+  <div class="learn-container">
+  
+  </div>
+`;
