@@ -151,6 +151,7 @@ compoment.loginSuccess = `
             <li>Libvocab</li>
             <li class="open">Học</li>
             <li>Luyện Tập</li>
+            <li id="signOut">Đăng xuất</li>
             <!-- <li>Thảo Luận</li> -->
             <!-- <li>User: Nguyễn Quý Phúc</li> -->
         </ul>
@@ -192,6 +193,7 @@ compoment.practicePage =`<div class="practice">
             <li>Libvocab</li>
             <li >Học</li>
             <li class="open">Luyện Tập</li>
+            <li id="signOut">Đăng xuất</li>
             <!-- <li>Thảo Luận</li> -->
             <!-- <li>User: Nguyễn Quý Phúc</li> -->
         </ul>

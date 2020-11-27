@@ -383,6 +383,9 @@ for (let i = 0; i < category.length; i++) {
         })
     })
     
+    document.getElementById('signOut').addEventListener('click', () => {
+      firebase.auth().signOut();
+    })
 
 
 
@@ -542,6 +545,9 @@ chooseLii.forEach((e) => {
           view.setActiveScreen('loginSuccess')
       } 
     })
+})
+document.getElementById('signOut').addEventListener('click', () => {
+  firebase.auth().signOut();
 })
      break;
   }

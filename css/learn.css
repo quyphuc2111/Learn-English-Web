@@ -44,7 +44,7 @@ body {
     margin-left: 10px;
 }
 
-.learn-navbar ul li:nth-child(1)::after, .learn-navbar ul li:nth-child(3)::after {
+.learn-navbar ul li:nth-child(1)::after, .learn-navbar ul li:nth-child(3)::after, .learn-navbar ul li:nth-child(4)::after {
     display: none;
 }
 /* .learn-navbar ul li:nth-child(4)::after, .learn-navbar ul li:nth-child(5)::after */
@@ -53,6 +53,11 @@ body {
     font-size: 30px;
     left: 20px;
     text-transform: uppercase;
+}
+.learn-navbar ul li:nth-child(4){
+    position: absolute;
+    font-size: 13px;
+    right: 0;
 }
 /* .learn-navbar ul li:nth-child(5) {
     position: absolute;
