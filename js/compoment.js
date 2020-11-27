@@ -87,7 +87,7 @@ compoment.loginPage = `
         <h1>LOGIN</h1>
         <form id="login-form">
             <div class="input-wrapper">
-                <input type="email" placeholder="Username" name="email">
+                <input type="email" placeholder="Email" name="email">
                 <div id="email-error" class="err"></div>
             </div>
             <div class="input-wrapper">
