@@ -29,6 +29,16 @@ const init = () => {
       view.setActiveScreen("mainPage");
     }
   });
+
+
+
+
+
+
+  
+ 
+
+
 };
 window.onload = init;
 // () => {

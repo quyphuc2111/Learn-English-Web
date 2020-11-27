@@ -144,7 +144,82 @@ compoment.registerPage = `
     </div>
 `;
 compoment.loginSuccess = `
-  <div class="learn-container">
-  
-  </div>
+<div class="learn-container">
+<nav>
+    <div class="learn-navbar">
+        <ul>
+            <li>Libvocab</li>
+            <li class="open">Học</li>
+            <li>Luyện Tập</li>
+            <!-- <li>Thảo Luận</li> -->
+            <!-- <li>User: Nguyễn Quý Phúc</li> -->
+        </ul>
+
+
+    </div>
+</nav>
+<section>
+
+    <div class="learn-content">
+        <div class="left-column">
+            <ul id="category">
+                <h1>Chủ đề</h1>
+                <li  class="activeCat" >ALL</li>
+                <li>NATURE</li>
+                <li>HUMAN</li>
+                <li>WORK</li>
+                <!-- <li>Nghệ thuật</li>
+                <li>Truyền thông</li>
+                <li>Các mối quan hệ</li>
+                <li>Sự vật xung quanh</li>
+                <li>Cuộc sống thường ngày</li> -->
+
+            </ul>
+        </div>
+       
+        <div class="right-column">
+            <div class="categoryTitle" ><h1>All</h1> </div>
+            <div class="libvocabb"></div>
+            
+            </div>
+</section>
+</div>
 `;
+compoment.practicePage =`<div class="practice">
+<nav>
+    <div class="learn-navbar">
+        <ul>
+            <li>Libvocab</li>
+            <li >Học</li>
+            <li class="open">Luyện Tập</li>
+            <!-- <li>Thảo Luận</li> -->
+            <!-- <li>User: Nguyễn Quý Phúc</li> -->
+        </ul>
+
+
+    </div>
+</nav>
+<div class="wrapper">
+    <h1>Guess Word Game</h1>
+    <p>Sử dụng bảng chữ cái alphabet ở dưới để đoán từ</p>
+</div>
+
+<div class="wrapper">
+    <p id="catagoryName"></p>
+    <div id="hold"></div>
+    <p id="mylives"></p>
+    <div id="buttons"></div>
+    
+  
+   
+    <p id="clue"></p>
+ 
+
+
+<div class="container">
+    <button id="hint">Gợi ý</button>
+    <button id="reset">Chơi lại</button>
+</div>
+</div>
+</div>
+`
